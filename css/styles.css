@@ -549,6 +549,18 @@
 	display: none;
 }
 
+/* ============================= */
+/* !Domains Page */
+/* ============================= */
+
+#section-domains {
+	background: url(../img/domains-bg.jpg);
+	height: 297px;
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+}
 
 
 /* ============================= */
@@ -709,10 +721,6 @@
 	.search-ctn {
 		width: 98%;
 		float: left;
-	}
-
-	#section2 {
-		height: 240px;
 	}
 
 	.worldclass {
