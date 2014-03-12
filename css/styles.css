@@ -18,6 +18,10 @@
 		height:0;
 	}
 
+	a {
+		text-decoration: none;
+	}
+
 	* html .clearfix,*:first-child+html .clearfix{zoom:1}
 
 	@font-face {
@@ -165,7 +169,7 @@
 		text-transform: uppercase;
 	}
 
-	.get-domain {
+	.get-domain, .order-dmn {
 		font-size: 36px;
 		text-transform: uppercase;
 		color: #fff;
@@ -568,7 +572,7 @@
 
 .domain-banner {
 	border: 1px solid #898989;
-	margin-top: 50px;
+	margin: 0px 0px 50px;
 }
 
 .table-head {
@@ -584,7 +588,11 @@
 }
 
 .view {
-	width: 10%;
+	padding: 0;
+}
+
+.trn-last {
+	width: 15% !important;
 }
 
 .dmn-name {
@@ -592,9 +600,15 @@
 	margin-left: 2%;
 }
 
+.small-header {
+color: #0093dd;
+font-size: 24px;
+text-transform: uppercase;
+}
+
 .reg-fee, .rnw-fee, .trn-fee {
 	width: 20%;
-	text-align: center;
+	text-align: left;
 }
 
 .table-body .dmn-name, .table-body .reg-fee, .table-body .rnw-fee, .table-body .trn-fee, .table-body .view  {
@@ -607,6 +621,44 @@
 
 .even {
 	background: #ebebeb;
+}
+
+.table-ctn {
+	font-size: 14px;
+}
+.strikeout {
+	text-decoration: line-through;
+	color: #c63932;
+}
+
+.order-dmn {
+	margin: 20px 0 20px;
+	color: #2b2b2b;
+	line-height: 42px;
+}
+
+.hot-now {
+	padding: 50px 40px;
+}
+
+.hot-now-img {
+	margin-top: 40px;
+}
+
+.order-dmn span {
+	color: #669900;
+}
+
+.btn {
+	text-transform: uppercase;
+	display: inline-block;
+	color: #fff;
+	border-radius: 2px;
+	padding: 15px 20px;
+}
+
+.btn-blue {
+	background: #0093dd;
 }
 
 /* ============================= */
