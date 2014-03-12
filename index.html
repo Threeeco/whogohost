@@ -159,19 +159,11 @@
 </div>
 
 <div id="section4">
-	<div class="flexslider">
-	  <ul class="slides">
-	    <li>
-	      <img src="img/sld-img.jpg" />
-	    </li>
-	    <li>
-	      <img src="img/sld-img.jpg" />
-	    </li>
-	    <li>
-	      <img src="img/sld-img.jpg" />
-	    </li>
-	  </ul>
-	</div>
+	<ul class="rslides">
+	  <li><img src="img/sld-img.jpg" /></li>
+	  <li><img src="img/sld-img.jpg" /></li>
+	  <li><img src="img/sld-img.jpg" /></li>
+	</ul>
 </div>
 
 <div id="section3">
@@ -293,16 +285,16 @@
 	</div>
 </div>
 
-<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+<link rel="stylesheet" href="js/responsiveslides.css" type="text/css">
 <script src="js/jquery.js"></script>
 <script src="js/flowtype.js"></script>
-<script src="js/jquery.flexslider.js"></script>
-<script type="text/javascript" charset="utf-8">
-  $(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide"
+<script src="js/responsiveslides.min.js"></script>
+<script>
+  $(function() {
+    $(".rslides").responsiveSlides({
+    	speed: '5000ms'
+    });
   });
-});
 </script>
 <script type="text/javascript">
 $(document).ready(function(){
