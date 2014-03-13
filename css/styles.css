@@ -19,7 +19,7 @@
 	}
 
 	a {
-		text-decoration: none;
+		text-decoration: none; 
 	}
 
 	* html .clearfix,*:first-child+html .clearfix{zoom:1}
@@ -86,6 +86,11 @@
 		font-size: 12px;
 	}
 
+	.sup-num {
+		color: #0093dd !important;
+		font-size: 18px;
+	}
+
 	#top-navbar p a {
 		text-transform: uppercase;
 		font-size: 12px;
@@ -94,7 +99,11 @@
 		margin-left: 20px;
 	}
 
-	a.blue-link {
+	.top-adj {
+		margin-top: 6px;
+	}
+
+	a.blue-link , .blue-link {
 		color: #0093dd !important;
 	}
 
@@ -583,12 +592,12 @@
 .dmn-name, .reg-fee, .rnw-fee, .trn-fee, .view {
 	float: left;
 	color: #fff;
-	padding: 15px 0;
+	padding: 20px 0;
 	text-transform: uppercase;
 }
 
 .view {
-	padding: 0;
+	padding: 10px 0 0 0;
 }
 
 .trn-last {
@@ -659,6 +668,14 @@ text-transform: uppercase;
 
 .btn-blue {
 	background: #0093dd;
+}
+
+.btn-green {
+	background: #669900;
+}
+
+.btn-small {
+	padding: 10px 15px;
 }
 
 
@@ -1521,6 +1538,20 @@ text-transform: uppercase;
 
 	.desk-mobile {
 		display: block;
+	}
+
+
+	.table-head {
+		background-color: #008fdd;
+		font-size: 14px;
+	}
+
+	.table-ctn {
+		font-size: 12px;
+	}
+
+	.btn-small {
+		padding: 5px 9px;
 	}
 
 }
