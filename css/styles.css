@@ -562,6 +562,13 @@
 	display: none;
 }
 
+
+
+
+
+
+
+
 /* ============================= */
 /* !Domains Page */
 /* ============================= */
@@ -678,6 +685,17 @@ text-transform: uppercase;
 	padding: 10px 15px;
 }
 
+.page-title {
+	display: inline-block;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #fff;
+	background: rgba(0, 119, 167, 0.59);
+	padding: 20px 20px;
+	width: 300px;
+	margin-top: 160px;
+}
+
 
 
 
@@ -714,6 +732,22 @@ text-transform: uppercase;
   border: 0;
   }
 
+
+
+
+
+/* ============================= */
+/* !Hosting Page */
+/* ============================= */
+
+#section-hosting {
+	background: url(../img/hosting-bg.jpg);
+	height: 297px;
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+}
 /* ============================= */
 /* ! Layout for mobile version   */
 /* ============================= */
@@ -740,6 +774,10 @@ text-transform: uppercase;
 	}*/
 
 }
+
+
+
+
 
 @media handheld, only screen and  (min-width: 768px) and (max-width: 1024px) {
 
@@ -985,6 +1023,17 @@ text-transform: uppercase;
 		font-size: 12px;
 	}
 
+	.page-title {
+		font-size: 18px;
+		padding: 10px 15px;
+		width: inherit;
+		margin-top: 140px;
+	}
+
+	#section-domains, #section-hosting {
+		height: 210px;
+	}
+
 }
 
 
@@ -1200,6 +1249,17 @@ text-transform: uppercase;
 	.btn {
 		padding: 5px 10px;
 		font-size: 12px;
+	}
+
+	.page-title {
+		font-size: 20px;
+		padding: 15px 15px;
+		width: inherit;
+		margin-top: 150px;
+	}
+
+	#section-domains, #section-hosting {
+		height: 250px;
 	}
 
 
@@ -1656,6 +1716,11 @@ text-transform: uppercase;
 		padding: 10px 15px;
 	}
 
+	.page-title {
+		font-size: 30px;
+		width: 270px;
+	}
+
 }
 
 
@@ -1948,5 +2013,43 @@ text-transform: uppercase;
 
 	#footermobile, .navbarmobile {
 		display: block;
+	}
+}
+
+
+/***** RESPONSIVE TABLE *****/
+
+@media handheld, only screen and (min-width: 321px) and  (max-width: 684px) {
+
+	.reg-fee, .rnw-fee, .trn-fee {
+		width: 18%;
+		text-align: center;
+	}
+
+	.dmn-name, .reg-fee, .rnw-fee, .trn-fee, .view {
+		padding: 5px 0;
+	}
+
+	.table-head {
+		border-bottom: 4px solid #006196;
+		font-size: 8px;
+	}
+
+	.table-ctn {
+		font-size: 10px;
+		line-height: 15px;
+	}
+
+	.view a {
+		color: #008fdd;
+	}
+
+	.no-bg {
+		padding: 0;
+		font-size: 8px;
+		background: none;
+	}
+
+
 	}
 }

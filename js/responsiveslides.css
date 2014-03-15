@@ -4,9 +4,10 @@
   position: relative;
   list-style: none;
   overflow: hidden;
-  width: 100%;
+  width: 99%;
   padding: 0;
   margin: 0;
+  border: 1px solid #000;
   }
 
 .rslides li {
